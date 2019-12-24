@@ -11,6 +11,19 @@
     border-radius: 5px;
 }
 
+.frmtxt {
+    position: absolute; 
+    left: 0px; right: 0px;
+    top: 25%; 
+}
+
+.frmbtn {
+    position:absolute;
+    left: 0px; right: 0px;
+    top: 55%; 
+    text-align: center;
+}
+
 .protobtn {
     display: inline-block;
     margin-left: 15px;

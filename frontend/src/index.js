@@ -8,8 +8,8 @@ function Button(props) {
 
 ReactDOM.render(
     <div className="mainfrm">
-        <div style={{position: "absolute", top: "30%", left: "0px", right: "0px"}}>어플리케이션을 골라주세요</div>
-        <div style={{position:"absolute", top: "55%", left: "0px", right: "0px", textAlign:"center"}}>
+        <div className="frmtxt">어플리케이션을 골라주세요</div>
+        <div className="frmbtn">
             <Button name="투두" color="#0073e6" />
             <Button name="게시판" color="#2db300" />
         </div>
